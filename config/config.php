@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root','', 'penjualan');
+$conn = mysqli_connect('host', 'user','password', 'database');
 
 // fetch data
 $getBarang = mysqli_query($conn, "SELECT * FROM barang");
